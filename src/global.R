@@ -1,4 +1,4 @@
-source("dependencies.R")
+source("src/dependencies.R")
 install_required_packages()
 
 # Global variables and functions
