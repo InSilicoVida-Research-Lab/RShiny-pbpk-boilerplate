@@ -1,0 +1,9 @@
+# File: .gitignore
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.DS_Store
+/logs/*
+/data/*
