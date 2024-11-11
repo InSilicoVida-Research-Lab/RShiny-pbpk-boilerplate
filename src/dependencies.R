@@ -2,15 +2,13 @@ install_required_packages <- function() {
     
     # List all required packages
     packages <- c(
-        "shiny",
-        "shinydashboard",
-        "DT",
+        "deSolve",
+        "coda",
+        "rootSolve",
+        "purrr",
+        "tidyverse",
         "dplyr",
-        "ggplot2",
-        "readr",
-        "tidyr",
-        "plotly",
-        "remotes"
+        "shiny"
     )
     
     # Function to install missing packages
