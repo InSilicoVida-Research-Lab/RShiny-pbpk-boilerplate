@@ -11,5 +11,9 @@ sudo mkdir -p $SHINY_DIR
 sudo cp -R . $SHINY_DIR/
 sudo chown -R shiny:shiny $SHINY_DIR
 
+## To allow installation of packages as a shiny_user
+sudo chown -R shiny:shiny /usr/local/lib/R/site-library
+sudo chmod -R 775 /usr/local/lib/R/site-library
+
 sudo systemctl restart shiny-server
 ```
